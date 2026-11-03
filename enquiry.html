@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Explore cars, bikes, SUVs and more at VehicleVerse.">
+    <title>Enquiry | VehicleVerse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/script.js"></script>
+</head>
+
+<body>
+    <header class="site-header"><a class="brand" href="index.html">Vehicle<span>Verse</span></a>
+        <nav><a href="index.html">Home</a><a href="categories.html">Categories</a><a href="cars.html">Cars</a><a
+                href="bikes.html">Bikes</a><a href="electric.html">Electric</a><a href="enquiries.html">Enquiries</a><a
+                href="about.html">About</a><a href="contact.html">Contact</a></nav>
+    </header>
+    <main>
+        <section class="page-banner">
+            <p class="eyebrow">LET'S TALK</p>
+            <h1>Enquire about a vehicle</h1>
+            <p>Submit your details securely to our MySQL database.</p>
+        </section>
+        <section class="section form-section">
+            <form id="enquiryForm" class="enquiry-form">
+                <div class="form-grid"><label>Full name<input id="name" name="name" required minlength="2"
+                            maxlength="60" placeholder="Your full name"></label><label>Email address<input id="email"
+                            name="email" type="email" required placeholder="you@example.com"></label><label>Phone
+                        number<input id="phone" name="phone" inputmode="numeric" pattern="[0-9]{10}" required
+                            maxlength="10" placeholder="10-digit phone number"></label><label>Vehicle<select
+                            id="vehicle" name="vehicle" required>
+                            <option value="">Select a vehicle</option>
+                            <option>Premium Sedan</option>
+                            <option>Luxury Sedan</option>
+                            <option>Family Hatchback</option>
+                            <option>Velocity GT</option>
+                            <option>Thunder R</option>
+                            <option>Mountain X SUV</option>
+                            <option>Royal SUV</option>
+                            <option>Street Rider 250</option>
+                            <option>Road Beast 400</option>
+                            <option>Speed R 600</option>
+                            <option>Track 1000</option>
+                            <option>Volt X</option>
+                            <option>E-Cruise</option>
+                            <option>Cargo Pro</option>
+                            <option>Heavy Hauler</option>
+                            <option>Adventure 500</option>
+                            <option>City Scooter</option>
+                            <option>Family Van</option>
+                        </select></label><label class="full-width">Message<textarea id="message" name="message" rows="4"
+                            required minlength="5"
+                            placeholder="Tell us what you would like to know..."></textarea></label></div><label
+                    class="check-row"><input type="checkbox" id="consent" required> I agree to submit my details for
+                    this enquiry.</label><button class="btn" type="submit">Submit Enquiry</button>
+                <p id="formMessage" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 VehicleVerse · Your journey starts here.</p>
+        <p class="small">Demonstration project. Vehicle names, specifications and prices are illustrative.</p>
+    </footer>
+</body>
+
+</html>

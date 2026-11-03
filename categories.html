@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Explore cars, bikes, SUVs and more at VehicleVerse.">
+    <title>Vehicle Categories | VehicleVerse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <header class="site-header"><a class="brand" href="index.html">Vehicle<span>Verse</span></a>
+        <nav><a href="index.html">Home</a><a href="categories.html">Categories</a><a href="cars.html">Cars</a><a
+                href="bikes.html">Bikes</a><a href="electric.html">Electric</a><a href="enquiries.html">Enquiries</a><a
+                href="about.html">About</a><a href="contact.html">Contact</a></nav>
+    </header>
+    <main>
+        <section class="page-banner">
+            <p class="eyebrow">EXPLORE VEHICLEVERSE</p>
+            <h1>Find your category</h1>
+            <p>Choose a vehicle type to browse available models and details.</p>
+            <div class="search-wrap"><input id="categorySearch" type="search" placeholder="Search categories..."
+                    oninput="filterCards(&quot;categorySearch&quot;,&quot;.category-card&quot;)"
+                    aria-label="Search categories"></div>
+        </section>
+        <section class="section">
+            <div class="category-grid"><a class="category-card" href="cars.html"><img
+                        src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=85"
+                        alt="Cars">
+                    <div class="card-content">
+                        <h3>Cars</h3>
+                        <p>Everyday cars, premium sedans and hatchbacks.</p><span class="text-link">Explore category
+                            →</span>
+                    </div>
+                </a><a class="category-card" href="sports-cars.html"><img
+                        src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=1200&q=85"
+                        alt="Sports Cars">
+                    <div class="card-content">
+                        <h3>Sports Cars</h3>
+                        <p>High-performance cars with bold styling.</p><span class="text-link">Explore category →</span>
+                    </div>
+                </a><a class="category-card" href="suvs.html"><img
+                        src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=85"
+                        alt="SUVs">
+                    <div class="card-content">
+                        <h3>SUVs</h3>
+                        <p>Spacious vehicles for family and adventure.</p><span class="text-link">Explore category
+                            →</span>
+                    </div>
+                </a><a class="category-card" href="sedans.html"><img
+                        src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=85"
+                        alt="Sedans">
+                    <div class="card-content">
+                        <h3>Sedans</h3>
+                        <p>Comfortable, refined and practical sedans.</p><span class="text-link">Explore category
+                            →</span>
+                    </div>
+                </a><a class="category-card" href="hatchbacks.html"><img
+                        src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=85"
+                        alt="Hatchbacks">
+                    <div class="card-content">
+                        <h3>Hatchbacks</h3>
+                        <p>Compact cars for city driving.</p><span class="text-link">Explore category →</span>
+                    </div>
+                </a><a class="category-card" href="luxury-cars.html"><img
+                        src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=85"
+                        alt="Luxury Cars">
+                    <div class="card-content">
+                        <h3>Luxury Cars</h3>
+                        <p>Premium comfort and modern features.</p><span class="text-link">Explore category →</span>
+                    </div>
+                </a><a class="category-card" href="bikes.html"><img
+                        src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=85"
+                        alt="Bikes">
+                    <div class="card-content">
+                        <h3>Bikes</h3>
+                        <p>Motorcycles for everyday rides.</p><span class="text-link">Explore category →</span>
+                    </div>
+                </a><a class="category-card" href="sports-bikes.html"><img
+                        src="https://images.unsplash.com/photo-1558981285-6f0c94958bb6?auto=format&fit=crop&w=1200&q=85"
+                        alt="Sports Bikes">
+                    <div class="card-content">
+                        <h3>Sports Bikes</h3>
+                        <p>Sporty motorcycles built for excitement.</p><span class="text-link">Explore category →</span>
+                    </div>
+                </a><a class="category-card" href="cruisers.html"><img
+                        src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1200&q=85"
+                        alt="Cruisers">
+                    <div class="card-content">
+                        <h3>Cruisers</h3>
+                        <p>Relaxed riding with classic character.</p><span class="text-link">Explore category →</span>
+                    </div>
+                </a><a class="category-card" href="adventure-bikes.html"><img
+                        src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=85"
+                        alt="Adventure Bikes">
+                    <div class="card-content">
+                        <h3>Adventure Bikes</h3>
+                        <p>Two-wheelers for long rides and exploration.</p><span class="text-link">Explore category
+                            →</span>
+                    </div>
+                </a><a class="category-card" href="scooters.html"><img
+                        src="https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?auto=format&fit=crop&w=1200&q=85"
+                        alt="Scooters">
+                    <div class="card-content">
+                        <h3>Scooters</h3>
+                        <p>Easy, convenient city commuting.</p><span class="text-link">Explore category →</span>
+                    </div>
+                </a><a class="category-card" href="electric.html"><img
+                        src="https://tse3.mm.bing.net/th/id/OIP.fioe1GCE0vEveTcQJKQLqQHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                        alt="Electric Vehicles">
+                    <div class="card-content">
+                        <h3>Electric Vehicles</h3>
+                        <p>Electric mobility for a cleaner drive.</p><span class="text-link">Explore category →</span>
+                    </div>
+                </a><a class="category-card" href="electric-bikes.html"><img
+                        src="https://elektro-mall.ru/image/cache/catalog/1.1elektrotransport/electromotocikli/white-siberia/super-soco/tc-max/super-soco-tc-max-black-silver-duhast-22032024%284%29-1000x1000.png"
+                        alt="Electric Bikes">
+                    <div class="card-content">
+                        <h3>Electric Bikes</h3>
+                        <p>Electric two-wheelers for daily travel.</p><span class="text-link">Explore category →</span>
+                    </div>
+                </a><a class="category-card" href="trucks.html"><img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/027/843/401/small_2x/a-cargo-truck-with-a-container-is-seen-driving-across-a-bridge-while-a-semi-truck-with-a-cargo-trailer-follows-closely-behind-photo.jpg"
+                        alt="Trucks">
+                    <div class="card-content">
+                        <h3>Trucks</h3>
+                        <p>Reliable vehicles for hauling and business.</p><span class="text-link">Explore category
+                            →</span>
+                    </div>
+                </a><a class="category-card" href="pickup-trucks.html"><img
+                        src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=85"
+                        alt="Pickup Trucks">
+                    <div class="card-content">
+                        <h3>Pickup Trucks</h3>
+                        <p>Versatile work and lifestyle pickups.</p><span class="text-link">Explore category →</span>
+                    </div>
+                </a><a class="category-card" href="vans.html"><img
+                        src="https://tse3.mm.bing.net/th/id/OIP.64IMbiadp7qS0aBL9Ma-VAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                        alt="Vans">
+                    <div class="card-content">
+                        <h3>Vans</h3>
+                        <p>Roomy people and cargo transport.</p><span class="text-link">Explore category →</span>
+                    </div>
+                </a><a class="category-card" href="commercial.html"><img
+                        src="https://c8.alamy.com/comp/2RRJ857/articulated-hauler-a45g-hgv-haulage-delivery-trucks-blue-stream-lorry-transportation-hauling-volvo-dumper-truck-cargo-carrier-scania-r730-vehicle-european-commercial-transport-industry-travelling-on-the-m6-motorway-in-greater-manchester-uk-2RRJ857.jpg"
+                        alt="Commercial Vehicles">
+                    <div class="card-content">
+                        <h3>Commercial Vehicles</h3>
+                        <p>Vehicles to support your business.</p><span class="text-link">Explore category →</span>
+                    </div>
+                </a></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 VehicleVerse · Your journey starts here.</p>
+        <p class="small">Demonstration project. Vehicle names, specifications and prices are illustrative.</p>
+    </footer>
+</body>
+
+</html>
